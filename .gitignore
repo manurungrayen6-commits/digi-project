@@ -1,0 +1,25 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PHP
+vendor/
+composer.lock
+.env
+.env.local
+.env.*.local
+
+# Laravel
+storage/logs/
+storage/app/
+bootstrap/cache/
+node_modules/
+npm-debug.log
+yarn-error.log
