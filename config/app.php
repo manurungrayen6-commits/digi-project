@@ -1,7 +1,6 @@
 <?php
 
 return [
-    'default' => env('APP_NAME', 'Laravel'),
     'name' => env('APP_NAME', 'Digi Project'),
     'env' => env('APP_ENV', 'production'),
     'debug' => (bool) env('APP_DEBUG', false),
@@ -15,5 +14,8 @@ return [
     'cipher' => 'AES-256-CBC',
     'maintenance' => [
         'driver' => 'file',
+    ],
+    'providers' => [
+        App\Providers\AppServiceProvider::class,
     ],
 ];
